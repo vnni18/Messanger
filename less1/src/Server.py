@@ -7,7 +7,7 @@ def hello():
     return "Hello, World!"
 
 @app.route("/status")
-def hello():
+def status():
     return {'status': True}
 
 app.run()
